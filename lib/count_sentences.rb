@@ -30,10 +30,10 @@ class String
 
   def count_sentences
     
-    sentence = self.split(/[.!?]/).length
-    return sentence
-    sentence.reject { |s| s.empty? }
-    return sentence
+    sentence = self.split(/[.!?]/).reject { |s| s.empty? }
+    return sentence.length
+    
+    
 
   end
  
