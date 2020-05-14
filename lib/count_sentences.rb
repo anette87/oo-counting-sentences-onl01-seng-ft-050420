@@ -12,6 +12,11 @@ class String
   end
 
   def question?
+    if self[-1, 1] == "?"
+      return true
+    else
+      return false
+    end
 
   end
 
