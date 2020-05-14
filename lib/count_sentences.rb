@@ -30,8 +30,8 @@ class String
 
   def count_sentences
     sentence = self.split(/[.!?]/).length
-    sentence.delete_if{|sentence| sentence.empty?}
-    # sentence.lenght
+    # sentence.delete_if{|sentence| sentence.empty?}
+    # # sentence.lenght
   end
  
     
