@@ -32,7 +32,8 @@ class String
     
     sentence = self.split(/[.!?]/).length
     return sentence
-    # .reject { |s| s.empty? }
+    sentence.reject { |s| s.empty? }
+    return sentence
 
   end
  
