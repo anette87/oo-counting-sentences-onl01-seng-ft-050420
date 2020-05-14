@@ -33,4 +33,6 @@ class String
     else
     self.split(/[.!?]/).map{|x| !(x.match(/\w+/).nil?)}.reject{|x| x == false}.size 
   end
+  end
+  
 end
