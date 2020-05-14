@@ -29,7 +29,8 @@ class String
   end
 
   def count_sentences
-    self.split(/[.!?]/).length 
+    sentence = self.split(/[.!?]/).length 
+    sentence.
 
   end
  
