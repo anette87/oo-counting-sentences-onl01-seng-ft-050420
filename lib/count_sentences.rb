@@ -4,9 +4,9 @@ class String
 
   def sentence?
     if self[-1, 1] == "."
-      return "true"
+      return true
     else
-      return "false"
+      return false
     end
     
   end
