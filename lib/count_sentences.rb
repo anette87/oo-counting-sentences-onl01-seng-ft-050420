@@ -30,7 +30,7 @@ class String
 
   def count_sentences
     sentence = self.split(/[.!?]/).length 
-    sentence.filter(Boolean)
+    return sentence.filter(Boolean)
 
   end
  
